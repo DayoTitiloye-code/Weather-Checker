@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./assets/the-london-eye.jpg');
+    background-size: cover;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 50px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 16px;
+    opacity: 0.9;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar {
+    outline: none;
+    padding: 6px;
+    border-radius: 18px;
+    font-family: inherit;
+    font-size: 120%;
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+button {
+    margin: 8px;
+    border-radius: 50%;
+    height: 1.75em;
+    width: 1.75em;
+    outline: none;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+button:hover {
+    background-color: darkgray;
+}
